@@ -12,7 +12,9 @@ No grupo Ex2 - Movies Netflix
 1. Habilitar os controller services para a execução dos processos "Increase Timestamp Column" e "Partition By Type and Release Year".
 
 ![Alt text](images/1.MoviesNetflix.JPG?raw=true "Processor Conf")
+
 ![Alt text](images/2.MoviesNetflix.JPG?raw=true "Conf")
+
 ![Alt text](images/3.MoviesNetflix.JPG?raw=true "Controller Services")
 
 2. Alterar o nome do bucket nas variaveis do nifi.
@@ -25,17 +27,23 @@ No grupo Ex2 - Movies Netflix
 
 No grupo Ex3 - Api Marvel
 
-1.Criar uma api no link: https://developer.marvel.com/
+1. Criar uma api no link: https://developer.marvel.com/
 
 ![Alt text](images/1.ApiMarvel.JPG?raw=true "https://developer.marvel.com/")
 
 2. Criar 3 novas variaveis no nifi
 
 ts = uma opção é utilizar o link https://www.epochconverter.com/
+
 ![Alt text](images/2.ApiMarvel.JPG?raw=true "ts")
+
 apikey = sua chave publica
-hashkey = uma opção é utilizar o link https://www.md5hashgenerator.com/ -> informar ts + chave privada + chave publica. Clicar em generate, utilizar a opção "MD5 Hash".
+
+hashkey = uma opção é utilizar o link https://www.md5hashgenerator.com/ -> informar ts + chave privada + chave publica. 
+Clicar em generate, utilizar a opção "MD5 Hash".
+
 ![Alt text](images/3.ApiMarvel.JPG?raw=true "https://www.md5hashgenerator.com/")
+
 ![Alt text](images/4.ApiMarvel.JPG?raw=true "https://www.md5hashgenerator.com/")
 
 3. Configurar password e Habilitar os controller services para a execução dos processos "Create Insert to SQL" e "Put Characters in tb_marvel".
